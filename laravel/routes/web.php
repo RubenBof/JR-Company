@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     return view('index');
@@ -21,3 +22,7 @@ Route::get('/portfolio', function () {
 Route::get('/servicios', function () {
     return view('servicios');
 });
+
+
+Route::get('/contacto', [ContactController::class, 'index'])->name('contact.index');
+Route::post('/contacto', [ContactController::class, 'store'])->name('contact.store');

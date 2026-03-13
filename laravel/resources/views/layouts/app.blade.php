@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AUREON - @yield('title', 'Software Premium')</title>
+<title>BOF - @yield('title', 'Software Premium')</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 </head>
@@ -12,7 +12,7 @@
     <!-- Header -->
         <header class="p-4">
             <div class="container mx-auto flex justify-between items-center px-4">
-                <div class="text-2xl font-bold text-blue-600 transition-transform duration-300 hover:scale-105">AUREON</div>
+                <div class="text-2xl font-bold text-blue-600 transition-transform duration-300 hover:scale-105">BOF</div>
                 <nav class="space-x-6 hidden md:flex">
                     <a href="{{ url('/') }}" class="hover:text-blue-600 transition-colors duration-300">Inicio</a>
                     <a href="{{ url('/servicios') }}" class="hover:text-blue-600 transition-colors duration-300">Servicios</a>
