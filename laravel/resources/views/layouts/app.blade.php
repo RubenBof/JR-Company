@@ -10,9 +10,11 @@
     <body class="bg-gray-50 text-gray-800 font-sans">
 
     <!-- Header -->
-        <header class="p-4">
+        <header class="p-4 relative bg-white font-medium">
             <div class="container mx-auto flex justify-between items-center px-4">
-                <div class="text-2xl font-bold text-blue-600 transition-transform duration-300 hover:scale-105">BOF</div>
+                <a href="{{ url('/') }}" class="transition-transform duration-300 hover:scale-105">
+                    <img src="{{ asset('Bof_Logo_Blue.png') }}" alt="Logo BOF" class="h-10 w-auto">
+                </a>                
                 <nav class="space-x-6 hidden md:flex">
                     <a href="{{ url('/') }}" class="hover:text-blue-600 transition-colors duration-300">Inicio</a>
                     <a href="{{ url('/servicios') }}" class="hover:text-blue-600 transition-colors duration-300">Servicios</a>

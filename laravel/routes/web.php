@@ -23,6 +23,10 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
+Route::get('/plantillas', function () {
+    return view('plantillas');
+});
+
 Route::get('/plantilla1', function () {
     return view('plantilla1');
 });

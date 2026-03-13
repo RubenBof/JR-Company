@@ -10,7 +10,7 @@
                             Transformamos tus ideas en <span class="text-blue-600">Software de Alto Impacto</span>
                         </h1>
                         <p class="mb-8 max-w-[480px] text-base text-body-color text-gray-600">
-                            En **AUREON**, desarrollamos soluciones digitales a medida que escalan tu negocio. Desde aplicaciones web complejas hasta interfaces de usuario intuitivas.
+                            En <b>BOF Tech</b>, desarrollamos soluciones digitales a medida que escalan tu negocio. Desde aplicaciones web complejas hasta interfaces de usuario intuitivas.
                         </p>
                         <ul class="flex flex-wrap items-center space-x-4">
                             <li>
@@ -23,6 +23,12 @@
                                     Ver Portfolio
                                 </a>
                             </li>
+                                                        <li>
+                                <a href="{{ url('/plantillas') }}" class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-center text-gray-700 bg-gray-100 rounded-md hover:bg-gray-200 transition duration-300">
+                                    Ver Plantillas
+                                </a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
