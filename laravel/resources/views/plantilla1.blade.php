@@ -27,7 +27,7 @@
     <!-- Main -->
         <main>
             <div class="p-8 m-8 bg-red-100">
-                Maniacote
+                locote
             </div>
         </main>
     <!-- Footer -->
