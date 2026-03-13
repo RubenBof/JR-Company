@@ -23,6 +23,11 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
+Route::get('/plantilla1', function () {
+    return view('plantilla1');
+});
+
+
 
 Route::get('/contacto', [ContactController::class, 'index'])->name('contact.index');
 Route::post('/contacto', [ContactController::class, 'store'])->name('contact.store');
