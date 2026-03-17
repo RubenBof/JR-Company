@@ -1,44 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Velvet — Music for the soul</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        velvet: {
-                            900: '#0a0a0f',
-                            800: '#13131c',
-                            700: '#1c1c2e',
-                            600: '#252540',
-                            500: '#2e2e52',
-                        },
-                        gold: {
-                            300: '#f5d68a',
-                            400: '#e8bc5a',
-                            500: '#c9952a',
-                            600: '#9a6e18',
-                        },
-                        mist: {
-                            400: '#9b9bbf',
-                            500: '#7070a0',
-                            600: '#505078',
-                        }
-                    },
-                    fontFamily: {
-                        display: ['DM Serif Display', 'serif'],
-                        body: ['DM Sans', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+@extends('layouts.plantillas_layout')
+
+@section('title', 'Velvet — Music for the soul')
+
+@section('content')
     <style>
         * { box-sizing: border-box; }
         body { font-family: 'DM Sans', sans-serif; background: #0a0a0f; overflow: hidden; height: 100vh; }
@@ -460,3 +424,4 @@ $cancionActiva = collect($canciones)->firstWhere('activa', true);
 
 </body>
 </html>
+@endsection

@@ -1,46 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SARTO — Sastrería de lujo</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        noir: {
-                            950: '#080808',
-                            900: '#0f0f0f',
-                            800: '#1a1a1a',
-                            700: '#252525',
-                            600: '#333333',
-                            500: '#444444',
-                        },
-                        champagne: {
-                            300: '#f7e8c8',
-                            400: '#e8cfa0',
-                            500: '#c9a96e',
-                            600: '#a07840',
-                        },
-                        pearl: {
-                            100: '#f9f7f4',
-                            200: '#ede8e0',
-                            300: '#d4ccc0',
-                            400: '#b0a594',
-                        }
-                    },
-                    fontFamily: {
-                        display: ['Playfair Display', 'serif'],
-                        body: ['Outfit', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+@extends('layouts.plantillas_layout')
+
+@section('title', 'SARTO — Sastrería de lujo')
+
+@section('content')
     <style>
         html { scroll-behavior: smooth; }
         body { font-family: 'Outfit', sans-serif; background: #0f0f0f; color: #ede8e0; }
@@ -650,3 +612,4 @@ $productoDestacado = $productos[0];
 
 </body>
 </html>
+@endsection

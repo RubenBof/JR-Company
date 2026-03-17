@@ -1,53 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serenity Studio — Yoga & Mindfulness</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        stone: {
-                            50: '#fafaf9',
-                            100: '#f5f5f4',
-                            200: '#e7e5e4',
-                            300: '#d6d3d1',
-                            400: '#a8a29e',
-                            500: '#78716c',
-                            600: '#57534e',
-                            700: '#44403c',
-                            800: '#292524',
-                            900: '#1c1917',
-                        },
-                        sage: {
-                            100: '#f0f4f0',
-                            200: '#dce8dc',
-                            300: '#b8d0b8',
-                            400: '#8ab48a',
-                            500: '#6a9a6a',
-                            600: '#4e7a4e',
-                        },
-                        sand: {
-                            100: '#fdf8f2',
-                            200: '#f5ead8',
-                            300: '#e8d5b7',
-                            400: '#d4b896',
-                        }
-                    },
-                    fontFamily: {
-                        'display': ['Cormorant Garamond', 'serif'],
-                        'body': ['Jost', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+@extends('layouts.plantillas_layout')
+
+@section('title', 'Serenity Studio — Yoga & Mindfulness')
+
+@section('content')
+
     <style>
         html { scroll-behavior: smooth; }
         body { font-family: 'Jost', sans-serif; }
@@ -503,3 +459,4 @@
 
 </body>
 </html>
+@endsection
