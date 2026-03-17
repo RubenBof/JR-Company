@@ -31,6 +31,13 @@ Route::get('/plantilla1', function () {
     return view('plantilla1');
 });
 
+Route::get('/plantilla2', function () {
+    return view('plantilla2');
+});
+
+Route::get('/plantilla3', function () {
+    return view('plantilla3');
+});
 
 
 Route::get('/contacto', [ContactController::class, 'index'])->name('contact.index');
